@@ -1,0 +1,20 @@
+{
+    "name": "mprince/pagarme-test",
+    "description": "PagarMe Payments",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Marcelo Mileris",
+        "email": "marcelo.mileris@gmail.com"
+    }],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0",
+        "phpunit/phpunit": "9.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LojaVirtual\\": "src"
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "items": [
+        {
+            "code" : "00",
+            "amount": 1500,
+            "description": "Revenda XXXX",
+            "quantity": 1
+        }
+    ],
+    "customer": {
+        "name": "Fulaninho de Tal",
+        "email": "fulaninho.tal@gmail.com",
+        "document": "36331655840",
+        "type": "individual",
+        "address": {
+          "line_1": "Rua Maria Jose de Assis Lira, 530, Jardim Morada do Sol",
+          "zip_code": "13348510",
+          "city": "Indaiatuba",
+          "state": "SP",
+          "country": "BR"    
+         },
+         "phones" : {
+        "mobile_phone" : {
+            "country_code" : "55",
+            "area_code" : "19",
+            "number" : "000000000"
+        }
+        }
+    },    
+    "payments": [
+        {
+            "payment_method": "boleto",
+            "boleto": {
+                "instructions": "Pagar até o vencimento",
+				"due_at": "2022-11-20T00:00:00Z",
+				"document_number": "123",
+				"type": "DM"            
+                    
+            }
+        }
+    ]
+}
